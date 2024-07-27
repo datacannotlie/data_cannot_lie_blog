@@ -102,6 +102,11 @@ header p {
 .sidebar a {
   color: var(--text-secondary);
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: var(--hover-secondary);
 }
 
 /* Main Content */
