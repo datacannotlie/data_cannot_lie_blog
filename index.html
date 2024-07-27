@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Cannot Lie</title>
+    <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Data Cannot Lie</h1>
+            <p>A Data Analysis Endeavour</p>
+            <blockquote class="famous-quote">
+                <p>"In God we trust. All others must bring data."</p>
+                — W. Edwards Deming
+            </blockquote>
+        </div>
+    </header>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#post1">Healthcare expenditure and CVD incidence</a></li>
+            <li><a href="#author-bio">About the Author</a></li>
+        </ul>
+    </nav>   
+
+    <main>
+        <article class="blog-post">
+            <h2>The Impact of Federal Investment in Public Health on Cardiovascular Disease Incidence:
+                 A Comparative Analysis (2000-2020)</h2>
+            <p class="date">Published on [Date]</p>
+
+            <p>I have always believed that government spending on education and healthcare should be seen 
+                not as expenses, but as investments. Investing in healthcare, for example, can improve 
+                the overall health of the population, enhance quality of life, and strengthen the national 
+                workforce. This, in turn, boosts productivity and reduces early retirements and work 
+                absences due to health issues, lessening the strain on social security. Let's consider the 
+                case of cardiovascular diseases. This essay examines the relationship between federal 
+                investment in public health and the incidence of cardiovascular diseases across six 
+                countries — the United States, Brazil, Japan, Australia, Cuba, and Finland — focusing on 
+                their healthcare investments from 2000 to 2020.
+            </p>
+
+               
+            <p>Cardiovascular diseases (CVDs) remain a leading cause of mortality worldwide, prompting nations 
+                to invest heavily in public health initiatives aimed at prevention and treatment (
+                Benjamin et al., 2019). Figure 1 illustrates the evolution of CVD rates in five 
+                countries between 2000 and 2020. Despite a reduction in CVD mortality across all the 
+                countries analyzed, it remains higher in Brazil and Cuba and lower in Japan and Australia.
+            </p>    
+
+            <div id="plotly-graph">
+                <!-- Figure line_cvd_2000_2020.html here -->
+                <iframe src="line_cvd_2000_2020.html" width="100%" height="800px" frameborder="0"></iframe>
+            </div>
+
+            <p>Figure 1: Cardiovascular disease (CVD) mortality rate per 100,000 people from 2000 to 2020 for Australia, 
+                Cuba, Japan, Brazil, Finland, and the United States. The interactive plot allows you to hover over data 
+                points for specific values and compare trends across countries over time.
+            </p>
+
+            <p>When we consider the healthcare expenditure (as percentage of GDP), we observe that along the time, 
+                the investiment is increasing for all countries analyzed but USA has the highest healthcare expenditure, 
+                while Finland and Brazil present the lowest values.
+            </p>
+        
+            <p>A comparative analysis, showed in figure 3, reveals diverse outcomes among the six countries, 
+                highlighting the complex relationship between healthcare spending and 
+                CVD incidence. Despite high healthcare expenditures, the United States 
+                has shown only a modest decrease in CVD mortality rates (Frieden & Berwick, 2011), 
+                suggesting that high spending alone does not guarantee optimal outcomes. 
+                In contrast, Brazil's focus on preventive care and health education has led 
+                to a notable reduction in CVD mortality rates, emphasizing the importance of 
+                efficient resource allocation (Ribeiro et al., 2016). This demonstrates that 
+                middle-income nations can achieve significant improvements through targeted 
+                public health strategies. Japan's consistently low CVD incidence, attributed 
+                to a combination of factors including a healthy diet, active lifestyle, and 
+                emphasis on preventive care (Iso, 2011), further underscores the importance 
+                of cultural factors and lifestyle in CVD prevention.
+            </p>       
+        
+            <p>The experiences of Australia, Cuba, and Finland provide additional insights 
+                into effective strategies for reducing CVD incidence. Australia has demonstrated 
+                a strong correlation between increased healthcare spending and reduced CVD mortality, 
+                highlighting the importance of well-targeted public health investments (Australian Institute 
+                of Health and Welfare, 2021). Cuba's remarkable success in reducing CVD mortality rates, 
+                despite limited economic resources, shows that efficient allocation of resources can be 
+                crucial (Cooper et al., 2006). This underscores the potential for significant health 
+                improvements even with constrained budgets. Finland's comprehensive approach, including 
+                the North Karelia Project, serves as a model for other countries. It emphasizes the 
+                importance of long-term commitment to public health initiatives and addressing social 
+                determinants of health, such as education, housing, and employment (Puska, 2002).
+            </p>
+
+            
+            <div id="plotly-graph">
+                <!-- Figure line_hc_2000_2020.html here -->
+                <iframe src="line_hc_2000_2020.html" width="100%" height="800px" frameborder="0"></iframe>
+            </div>
+            
+            <p>Figure 2: Investiment in healthcare from 2000 to 2020 for Australia, 
+                Cuba, Japan, Brazil, Finland, and the United States. The interactive plot allows you to 
+                hover over data points for specific values and compare trends across countries over time.
+            </p>
+    
+            <p>Across all studied countries, the role of technology in CVD prevention and treatment has 
+                become increasingly important. Investments in digital health infrastructure, telemedicine, 
+                and mobile health applications have improved access to healthcare services, particularly in 
+                rural and underserved areas (World Health Organization, 2019). Additionally, research in 
+                genomics and precision medicine has led to targeted interventions and personalized treatment 
+                plans, enhancing the effectiveness of CVD prevention and treatment (National Institutes of 
+                Health, 2020). Community-based initiatives, such as public health campaigns and health 
+                education programs, have also been effective in promoting healthy lifestyles and reducing 
+                CVD risk factors (Centers for Disease Control and Prevention, 2020).
+            </p>
+
+            <div id="plotly-graph">
+                <!-- Figure cvd_hc.html here -->
+                <iframe src="cvd_hc.html" width="100%" height="600px" frameborder="0"></iframe>
+            </div>
+
+            <p>Figure 3: Cardiovascular disease (CVD) mortality rate per 100,000 people from 2000 to 2020 as 
+                function of the healthcare expenditure for Australia, Cuba, Japan, Brazil, Finland, and the United States, 
+                for the period between 2000 and 2020.
+            </p>
+    
+            <p>The evidence suggests that increased investment in public health is generally associated with 
+                better outcomes, but the effectiveness of this spending varies significantly based on how 
+                it is allocated and the specific context of each country. Key factors that enhance the impact 
+                of healthcare expenditures include a focus on preventive care, public health education, 
+                policies promoting healthy lifestyles, equitable access to healthcare services, integration 
+                of CVD prevention into primary care, and investment in research and innovation.</p>
+
+            <div id="plotly-graph">
+                <!-- Figure cvd_hc.html here -->
+                <iframe src="hc_projection.html" width="100%" height="650px" frameborder="0"></iframe>
+            </div>
+
+            <p>Figure 4: Projeted healthcare expenditure needed to minimize CVD deaths
+                    in Australia, Cuba, Japan, Brazil, Finland, and the United States.
+            </p>
+
+            <p>Figure 4 presents a theoretical value for healthcare investments needed to minimize 
+                CVD incidence in the countries considered here. This value is derived from the 
+                projection of the linear regression between CVD incidence and healthcare expenditure. 
+                While this is a theoretical value and CVD is complex, it provides a reasonable estimate. 
+                As observed in Figure 3, CVD mortality rates in Finland, Australia, and Brazil are 
+                more sensitive to healthcare expenditure. Therefore, Figure 4 shows that these three 
+                nations could achieve minimized levels of CVD mortality with relatively lower healthcare 
+                investments. This would represent a little more than a 50% increase in healthcare investment 
+                for Brazil and even less for Finland and Australia. However, for Cuba, minimizing the CVD 
+                death rate would require an investment of 45% of GDP, which may be impractical while the 
+                economic blockade persists.
+            </p>
+
+
+    
+            <h3>Conclusion</h3>
+            <p>In conclusion, the comparative analysis reveals that while increased 
+                healthcare expenditure is associated with reduced CVD incidence, 
+                the relationship is complex and influenced by multiple factors. To 
+                maximize the impact of federal investments in public health on CVD 
+                incidence, policymakers should focus on evidence-based interventions, 
+                preventive care, and addressing social determinants of health. The 
+                experiences of these nations underscore the importance of sustained, 
+                strategic investment in public health to combat cardiovascular diseases 
+                effectively. As global health challenges continue to evolve, countries 
+                must adapt their strategies, learn from successful models, and prioritize 
+                efficient resource allocation to effectively reduce the burden of 
+                cardiovascular diseases and improve overall public health outcomes.
+            </p>
+    
+            <h3>References:</h3>
+            <p>
+            <ul>
+            <li>Australian Institute of Health and Welfare. (2021). Heart, stroke and vascular disease: Australian facts. Canberra: AIHW.</li>
+            <li>Benjamin, E. J., et al. (2019). Heart disease and stroke statistics—2019 update: A report from the American Heart Association. Circulation, 139(10), e56-e528.</li>
+            <li>Centers for Disease Control and Prevention. (2020). Community Health Worker Training Program. Retrieved from https://archive.cdc.gov/www_cdc_gov/dhdsp/programs/spha/chw_training/index.htm</li>
+            <li>Cooper, R. S., Kennelly, J. F., & Orduñez-Garcia, P. (2006). Health in Cuba. International Journal of Epidemiology, 35(4), 817-824.</li>
+            <li>Frieden, T. R., & Berwick, D. M. (2011). The "Million Hearts" initiative—preventing heart attacks and strokes. New England Journal of Medicine, 365(13), e27.</li>
+            <li>Iso, H. (2011). Lifestyle and cardiovascular disease in Japan. Journal of Atherosclerosis and Thrombosis, 18(2), 83-88.</li>
+            <li>National Institutes of Health. (2020). Precision Medicine Initiative. Retrieved from https://www.nih.gov/about-nih/what-we-do/nih-turning-discovery-into-health/promise-precision-medicine</li>
+            <li>Puska, P. (2002). Successful prevention of non-communicable diseases: 25 year experiences with North Karelia Project in Finland. Public Health Medicine, 4(1), 5-7.</li>
+            <li>Ribeiro, A. L. P., Duncan, B. B., Brant, L. C., Lotufo, P. A., Mill, J. G., & Barreto, S. M. (2016). Cardiovascular health in Brazil: Trends and perspectives. Circulation, 133(4), 422-433.</li>
+            <li>World Health Organization. (2019). Digital Health. https://www.who.int/health-topics/digital-health#tab=tab_1 </p>
+            </ul>
+            <h3>Code and Dataset</h3>
+            <p> Health care expenditure dataset from <a href="https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS" target="_blank">World Bank </a></p>
+            <p>CVD mortality rate dataset from <a href="https://platform.who.int/mortality/themes/theme-details/topics/topic-details/MDB/cardiovascular-diseases" target="_blank">World Health Organization </a></p></p>
+            <p>The code used for this analysis can be found on my <a href="https://github.com/datacannotlie/CVD">GitHub repository</a></p>
+           
+        </article> 
+    </main>
+
+    <section class="author-bio" id="author-bio">
+        <img src="eu.png" alt="Author's photo" class="author-photo">
+        <div class="bio-content">
+            <h2>About the Author</h2>
+            <p>I am a Bachelor of Veterinary Medicine from the Federal Rural University of Rio de Janeiro (UFRRJ, 2000, RJ, Brazil) 
+                and a Bachelor of Mathematics from Estácio de Sá University (UNESA, 2024, RJ, Brazil). I earned a Master's degree in Physiology 
+                from the University of São Paulo (USP, 2002, SP, Brazil) and a Ph.D. in Physiology from the same institution (2006).
+                In pursuit of advanced research, I completed a postdoctoral fellowship in the electrophysiology of bulbar neurons 
+                at Oregon Health and Science University (OHSU, 2008, OR, USA), followed by a postdoctoral fellowship in mathematical modeling 
+                of the cardiovascular system at the National Laboratory for Scientific Computing (LNCC, 2014, RJ, Brazil).           
+                Passionate about mathematics and physiology, my research is focused in trying to understanding the neural mechanisms that control the 
+                cardiovascular system. You can check out my CV at <a href="http://lattes.cnpq.br/6449468825793021" target="_blank">My CV.</a></p> 
+                Also, you can contact me at datacannotlie@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Luciano Gonçalves Fernandes. All rights reserved.</p>
+    </footer>
+</div>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-consent" class="cookie-consent">
+    <p>This website uses cookies to ensure you get the best experience on our website. <a href="#" class="cookie-policy-link">Learn more</a></p>
+    <button id="accept-cookies" class="cookie-btn">Accept</button>
+    <button id="reject-cookies" class="cookie-btn">Reject</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
