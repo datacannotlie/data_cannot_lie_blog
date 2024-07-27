@@ -106,7 +106,7 @@ header p {
 
 /* Main Content */
 main {
-  max-width: 1200px;
+  max-width: 100%; /* Ensure full width */
   margin: 0 auto;
   padding: 20px;
 }
