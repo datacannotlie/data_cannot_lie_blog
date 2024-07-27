@@ -28,6 +28,7 @@ body {
 
 .main-wrapper {
   margin-left: 250px; /* Account for the sidebar */
+  padding-top: 120px; /* Add padding to push content below the header */
 }
 
 .container {
@@ -44,6 +45,10 @@ header {
   text-align: center;
   border-bottom: 2px solid var(--accent-primary);
   width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .header-content {
@@ -92,6 +97,7 @@ header p {
   padding: 20px;
   overflow-y: auto;
   border-right: 1px solid var(--accent-primary); /* Adds a subtle border */
+  z-index: 1001; /* Ensure sidebar is above the header */
 }
 
 .sidebar ul {
@@ -244,7 +250,7 @@ footer {
   color: var(--text-secondary);
   margin-top: 40px;
   border-top: 2px solid var(--accent-secondary);
-  width: calc(100%); /* Full width minus sidebar */
+  width: 100%; /* Full width */
 }
 
 footer p {
@@ -314,11 +320,11 @@ iframe {
 @media (max-width: 768px) {
   body {
       font-size: 14px;
-      margin-left: 0;
   }
 
   .main-wrapper {
       margin-left: 0;
+      padding-top: 0;
   }
 
   header, footer {
