@@ -125,49 +125,7 @@ main {
   padding: 20px;
 }
 
-/* Author Bio */
-.author-bio {
-  background-color: var(--bg-secondary);
-  border-radius: 10px;
-  padding: 30px;
-  margin: 40px 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-left: 4px solid var(--accent-tertiary);
-  display: flex;
-  align-items: start;
-}
-
-.author-bio:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
-}
-
-.author-photo {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-.bio-content {
-  flex: 1;
-}
-
-.author-bio h2 {
-  color: var(--accent-tertiary);
-  margin-bottom: 15px;
-  font-size: 1.75rem;
-}
-
-.author-bio p {
-  margin-bottom: 15px;
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-/* Blog Posts */
+/* Article */
 .blog-post {
   background-color: var(--bg-secondary);
   border-radius: 10px;
