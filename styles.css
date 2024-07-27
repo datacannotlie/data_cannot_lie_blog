@@ -24,6 +24,9 @@ body {
   color: var(--text-primary);
   background-color: var(--bg-primary);
   font-size: 16px;
+}
+
+.main-wrapper {
   margin-left: 250px; /* Account for the sidebar */
 }
 
@@ -41,7 +44,6 @@ header {
   text-align: center;
   border-bottom: 2px solid var(--accent-primary);
   width: 100%; /* Full width */
-  margin-left: -250px; /* Offset the body margin */
 }
 
 .header-content {
@@ -312,6 +314,10 @@ iframe {
 @media (max-width: 768px) {
   body {
       font-size: 14px;
+      margin-left: 0;
+  }
+
+  .main-wrapper {
       margin-left: 0;
   }
 
