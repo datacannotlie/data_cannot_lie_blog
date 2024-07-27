@@ -40,7 +40,8 @@ header {
   padding: 3rem 0;
   text-align: center;
   border-bottom: 2px solid var(--accent-primary);
-  width: calc(100% - 250px); /* Full width minus sidebar */
+  width: 100%; /* Full width */
+  margin-left: 250px; /* Account for the sidebar */
 }
 
 .header-content {
@@ -48,6 +49,7 @@ header {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 
 header h1 {
   font-size: 3.5rem;
