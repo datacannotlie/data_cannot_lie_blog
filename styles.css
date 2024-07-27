@@ -40,7 +40,7 @@ header {
   padding: 3rem 0;
   text-align: center;
   border-bottom: 2px solid var(--accent-primary);
-  width: calc(100% - 12px); /* Full width minus sidebar */
+  width: calc(100% - 250px); /* Full width minus sidebar */
 }
 
 .header-content {
