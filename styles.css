@@ -41,7 +41,8 @@ header {
   text-align: center;
   border-bottom: 2px solid var(--accent-primary);
   width: 100%; /* Full width */
-  margin-left: 250px; /* Account for the sidebar */
+  margin-left: -250px; /* Offset the body margin */
+  padding-left: 250px; /* Add padding to account for the sidebar */
 }
 
 .header-content {
